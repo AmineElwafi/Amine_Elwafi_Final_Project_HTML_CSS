@@ -11918,6 +11918,7 @@ button {
 
 .bookButton:hover {
   opacity: 0.7;
+  transition: 0.4s;
 }
 
 .details {
@@ -11945,6 +11946,7 @@ a {
 
 a:hover {
   color: #d29233;
+  transition: 0.4s;
 }
 
 div > span {
@@ -11973,6 +11975,7 @@ div > span {
 
 .heroButtons:hover {
   background-color: #d29233;
+  transition: 0.4s;
 }
 
 h5, .h5 {
@@ -12037,6 +12040,62 @@ h1, .h1 {
 .text > p, .first-text > p {
   color: #433f39;
   width: 100%;
+}
+
+.whyChooseUs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5vw;
+  padding: 3vh 0;
+}
+
+.whyChooseUsText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1vw;
+}
+
+.qualities {
+  display: flex;
+  justify-content: center;
+  gap: 2vw;
+}
+
+.quality {
+  width: 17vw;
+  padding: 4vh 3vh;
+  background-color: #f9f9f9;
+}
+
+.quality:hover {
+  background-color: #ffb03b;
+  transition: 0.4s;
+}
+
+.quality > h2, .quality > .h2 {
+  font-family: "Pacifico", cursive;
+  font-size: 0.5 rem;
+}
+
+.quality > p {
+  width: 100%;
+  color: #433f39;
+}
+
+.whyChooseUsText > h5, .whyChooseUsText > .h5 {
+  font-family: sans-serif;
+  font-weight: bold;
+  background-color: #fff7eb;
+  padding: 0.8vh 1.4vh;
+  border-radius: 20px;
+  color: #ffb03b;
+  font-size: 0.8rem;
+}
+
+.whyChooseUsText > h1 > span, .whyChooseUsText > .h1 > span {
+  color: #ffb03b;
 }
 
 /*# sourceMappingURL=app.css.map */
