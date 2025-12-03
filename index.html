@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./public/css/app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="carouselExampleDark" class="carousel carousel-white slide">
+        <div class="upperBar">
+            <div class="details">
+                <div>
+                    <i class="bi bi-phone"></i>
+                    <span>+1 5589 55488 55</span>
+                </div>
+                <div>
+                    <i class="bi bi-clock"></i>
+                    <span>Mon-Sat: 11:00 AM - 23:00 PM</span>
+                </div>
+            </div>
+            <button class="bookButton">Book a Table</button>
+        </div>
+        <div class="LogoMenu">
+            <img class="logo" src="./public/images/AmineDeliciousKitchen.png" alt="">
+            <div class="menu">
+                <a href="">Home</a>
+                <a href="">About</a>
+                <a href="">Menu</a>
+                <a href="">Specials</a>
+                <a href="">Events</a>
+                <a href="">Chefs</a>
+                <a href="">Gallery</a>
+                <div class="dropdown">
+                    <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Dropdown 1</a></li>
+                        <li><a class="dropdown-item" href="#">Dropdown 2</a></li>
+                        <li><a class="dropdown-item" href="#">Dropdown 3</a></li>
+                        <li><a class="dropdown-item" href="#">Dropdown 4</a></li>
+                        <li><a class="dropdown-item" href="#">Dropdown 5</a></li>
+                    </ul>
+                </div>
+                <a href="">Contact</a>
+            </div>
+        </div>
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active vh-100" data-bs-interval="10000">
+                <img src="./public/images/hero-carousel/hero-carousel-1.jpg"
+                    class="d-block w-100 h-100 object-fit-cover" alt="...">
+                <div class="carousel-caption d-none d-md-block innerText">
+                    <h5><span>Delicious</span> Restaurant</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <div>
+                        <button class="heroButtons">Our Menu</button>
+                        <button class="heroButtons">Book a Table</button>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item vh-100 " data-bs-interval="2000">
+                <img src="./public/images/hero-carousel/hero-carousel-2.jpg"
+                    class="d-block w-100 h-100 object-fit-cover" alt="...">
+                <div class="carousel-caption d-none d-md-block innerText">
+                    <h5>At vero eos et accusamus</h5>
+                    <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod
+                        maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
+                        Temporibus autem quibusdam et aut officiis debitis aut.</p>
+                    <div>
+                        <button class="heroButtons">Our Menu</button>
+                        <button class="heroButtons">Book a Table</button>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item vh-100">
+                <img src="./public/images/hero-carousel/hero-carousel-3.jpg"
+                    class="d-block w-100 h-100 object-fit-cover" alt="...">
+                <div class="carousel-caption d-none d-md-block innerText">
+                    <h5>Temporibus autem quibusdam</h5>
+                    <p>Beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
+                        odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt
+                        omnis iste natus error sit voluptatem accusantium.</p>
+                    <div>
+                        <button class="heroButtons">Our Menu</button>
+                        <button class="heroButtons">Book a Table</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
