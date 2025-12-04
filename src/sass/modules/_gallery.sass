@@ -1,0 +1,24 @@
+.gallery
+    display: grid
+    grid-template-columns: 1fr 1fr 1fr 1fr
+    grid-template-rows: 1fr 1fr
+    gap: 0.5vh
+    overflow-x: hidden
+    overflow-y: hidden
+
+
+.gallery > img
+    width: 25vw
+    filter: brightness(1)
+
+.gallery > img:hover
+    transform: scale(1.05)
+    z-index: 85652
+    transition: 0.4s
+    border-radius: 20px
+
+.gallerySection
+    display: flex
+    flex-direction: column
+    gap: 2vw
+    padding: 5vh 0
